@@ -9,8 +9,6 @@ new Vue({
         display(){
             this.displayEmail = this.email 
             this.displayPassword = this.password
-            this.emial= ''
-            this.password= ''
         }
     }
 })
