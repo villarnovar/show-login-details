@@ -11,7 +11,7 @@
 <body>
     <div id="root">
         <section class="container">
-                <form>
+                <form action="#">
                     <div class="form-group">
                         <h1>LOG IN</h1>
                       <label>Email address</label>
@@ -20,9 +20,10 @@
                       <input v-model="password" placeholder="Enter Password" type="password" class="form-control">
                     </div>
                     <button @click="display" type="button" class="btn btn-success">Submit</button>
+                    <h3>EMAIL: {{ displayEmail }}</h3>
+                    <h3>PASSWORD: {{ displayPassword }}</h3>
                   </form>
-                  <h3>EMAIL: {{ displayEmail }}</h3>
-                  <h3>PASSWORD: {{ displayPassword }}</h3>
+
         </section>
 
 
