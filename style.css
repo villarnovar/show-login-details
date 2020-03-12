@@ -1,0 +1,20 @@
+body{
+    justify-content: center;
+ 
+}
+#root{
+    display: flex;
+}
+.container{
+    background-color: lightgrey;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.form-control{
+    width: 50px;
+}
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
